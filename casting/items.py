@@ -6,6 +6,8 @@
 from scrapy.item import Item, Field
 
 class CastingItem(Item):
-    # define the fields for your item here like:
-    # name = Field()
-    pass
+    title = Field()
+    link = Field()
+    start_date = Field()
+    posted_date = Field()
+    modified_date = Field()
